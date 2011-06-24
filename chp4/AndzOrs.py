@@ -8,9 +8,10 @@ print 'a' or 'b' #a, a is true, so a first
 print '' or 'b' #b b is first true, so b
 print '' or [] or {} # {} if all are false, final returns
 
-def leFunc:
+def leFunc():
     print 'in leFunc()'
     return 1
+
 print 'a' or leFunc() # a first
 
 #andor
