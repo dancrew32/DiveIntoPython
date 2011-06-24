@@ -1,5 +1,5 @@
 
-# Dictionary (create, update, delete, append, prepend
+# Dictionary (create, update, delete, clear)
 d = {"a":"thing", "b":"other thing", "c": "final thing"}
 print d["a"] # thing
 print d["b"] # other thing
