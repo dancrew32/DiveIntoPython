@@ -1,3 +1,6 @@
+if __name__ == '__main__':
+    print 'running self'
+
 def buildConnectionString(params):
     """Build a connection string from a dictionary of parameters
 

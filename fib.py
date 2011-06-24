@@ -1,0 +1,12 @@
+# Sample self test
+if __name__ == '__main__':
+    print 'yee'
+
+# print fibonacci sequence
+def fib(n):
+    print 'n =', n
+    if n > 1:
+        return n * fib(n - 1)
+    else:
+        print 'end of the line'
+        return 1
