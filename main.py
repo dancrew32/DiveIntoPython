@@ -44,6 +44,7 @@ nli = ['a', 'b']
 nli = nli + ['c', 'd']
 print nli # ['a', 'b', 'c', 'd']
 nli += ['e'] # appends e
+tuple(nli) #freeze list
 
 # True and False
 # 0 is false, all other numbers are true
@@ -53,4 +54,11 @@ nli += ['e'] # appends e
 # {} is false, other dictionaries are true
 
 
-
+# Tuples
+# Tuples are immutable lists (Read only once created)
+t = ('a', 'b', 'c');
+print t[0] # a
+print t[0:] # ('b', 'c') (slicing works, when you slice, you get a new tuple)
+#tuple's have no other methods
+print 'c' in t # True
+list(t) #thaw tuple
