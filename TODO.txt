@@ -1,0 +1,3 @@
+- complete tutorials
+- try out CherryPy
+- build django site
